@@ -44,8 +44,6 @@
     "commitizen": "^4.1.2",
     "cross-env": "^7.0.2",
     "cz-conventional-changelog": "^3.2.0",
-    "cz-conventional-changelog-emoji": "0.1.0",
-    "cz-emoji": "^1.2.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
