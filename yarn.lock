@@ -3989,7 +3989,7 @@ cz-conventional-changelog-emoji@0.1.0:
     right-pad "^1.0.1"
     word-wrap "^1.1.0"
 
-cz-conventional-changelog@3.2.0:
+cz-conventional-changelog@3.2.0, cz-conventional-changelog@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/cz-conventional-changelog/-/cz-conventional-changelog-3.2.0.tgz#6aef1f892d64113343d7e455529089ac9f20e477"
   integrity sha512-yAYxeGpVi27hqIilG1nh4A9Bnx4J3Ov+eXy4koL3drrR+IO9GaWPsKjik20ht608Asqi8TQPf0mczhEeyAtMzg==
