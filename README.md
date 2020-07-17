@@ -1,4 +1,4 @@
-# Synxty React CRA Template
+# Synxty CRA Template
 
 ## featuring husky, commitlint, commitizen and lint-staged with Airbnb code style
 
