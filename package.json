@@ -51,7 +51,8 @@
   "lint-staged": {
     "src/**/*.ts{,x}": [
       "eslint --fix",
-      "cross-env CI=true yarn test --bail --findRelatedTests"
+      "cross-env CI=true yarn test --bail --findRelatedTests",
+      "git add"
     ]
   },
   "husky": {

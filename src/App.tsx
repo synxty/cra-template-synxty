@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          More Changes to test
+          More Changes to test git
           {' '}
           <code>src/App.tsx</code>
           {' '}
