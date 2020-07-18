@@ -48,7 +48,7 @@ Start by creating a repository for your app:
 
 Then run the following command:
 
-`npx create-react-app my-app --template synxty`
+`npx create-react-app my-app --template @synxty/synxty`
 
 And that's it!
 
