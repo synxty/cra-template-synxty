@@ -1,6 +1,6 @@
 # Synxty CRA Template
 
-## featuring husky, commitlint, commitizen and lint-staged with Airbnb code style
+Featuring husky, commitlint, commitizen and lint-staged with Airbnb code style.
 
 **Important Note:** In order for this template to work properly you should have a git repository already created. Otherwise the installation will get stuck trying to make the initial "CRA" commit which does not respect the conventional changelog. If you're reading this note too late just cancel out of the installation and initialize a git repository.
 
