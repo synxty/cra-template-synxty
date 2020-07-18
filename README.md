@@ -2,7 +2,55 @@
 
 ## featuring husky, commitlint, commitizen and lint-staged with Airbnb code style
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Important Note:** In order for this template to work properly you should have a git repository already created. Otherwise the installation will get stuck trying to make the initial "CRA" commit which does not respect the conventional changelog. If you're reading this note too late just cancel out of the installation and initialize a git repository.
+
+## Description
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and adds the following packages to the default typescript template:
+
+- lint-staged
+- husky
+- cz-conventional-changelog
+- cross-env
+- commitizen
+- eslint-config-airbnb
+- styled-components
+- react-router-dom
+  
+It also offers an opinionated structure to get started with ease:
+
+```
+src
+│   index.tsx
+│
+└───App
+│   │   App.tsx
+│   │
+│   
+└───assets
+│   
+└───components
+│   
+└───pages
+│   
+└───routes
+│   
+└───services
+│   
+└───styles
+
+```
+## Instalation
+
+Start by creating a repository for your app:
+
+`git init my-app`
+
+Then run the following command:
+
+`npx create-react-app my-app --template synxty`
+
+And that's it!
 
 ## Available Scripts
 

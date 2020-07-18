@@ -19,6 +19,7 @@
     "cz-conventional-changelog"
   ],
   "description": "Synxty CRA Template",
+  "main": "template.json",
   "repository": {
     "type": "git",
     "url": "https://github.com/synxty/template.git"
