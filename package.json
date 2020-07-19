@@ -1,6 +1,6 @@
 {
   "name": "@synxty/cra-template-synxty",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "react",
     "cra",
@@ -34,5 +34,8 @@
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

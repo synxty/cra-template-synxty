@@ -1,46 +1,49 @@
 # Synxty CRA Template
 
-Featuring husky, commitlint, commitizen and lint-staged with Airbnb code style.
+Featuring husky, commitlint, commitizen, lint-staged with Airbnb code style, styled-components and react-router-dom.
 
-**Important Note:** In order for this template to work properly you should have a git repository already created. Otherwise the installation will get stuck trying to make the initial "CRA" commit which does not respect the conventional changelog. If you're reading this note too late just cancel out of the installation and initialize a git repository.
+**Important Note:** In order for this template to work properly you should have a git repository already created. Otherwise the installation will get stuck trying to make the initial "CRA" commit which does not respect the conventional changelog. If you're reading this note too late, don't worry just cancel out of the installation and initialize a git repository with `git init` within your app folder.
 
 ## Description
 
 This template is going to create a project bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and adds the following packages to the default typescript template:
 
-- lint-staged
-- husky
-- cz-conventional-changelog
-- cross-env
-- commitizen
-- eslint-config-airbnb
-- styled-components
-- react-router-dom
-  
+- [lint-staged](https://github.com/okonet/lint-staged)
+- [husky](https://github.com/typicode/husky)
+- [commitlint](https://github.com/conventional-changelog/commitlint)
+- [commitizen (cz-cli and cz-conventional-changelog)](https://github.com/commitizen/cz-cli)
+- [cross-env](https://www.npmjs.com/package/cross-env)
+- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+- [styled-components](https://styled-components.com/)
+- [react-router-dom](https://reactrouter.com/)
+
 It also offers an opinionated structure to get started with ease:
 
-```
+```.
 src
 │   index.tsx
 │
 └───App
 │   │   App.tsx
 │   │
-│   
+│
 └───assets
-│   
+│
 └───components
-│   
+│
 └───pages
-│   
+│
 └───routes
-│   
+│
 └───services
-│   
+│
 └───styles
 
 ```
-## Instalation
+
+Tests are preformed on every commit attempt.
+
+## Installation
 
 Start by creating a repository for your app:
 
@@ -58,23 +61,28 @@ In the project directory, you can run:
 
 ### `yarn dev` or `npm run dev`
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.
+
 You will also see any lint errors in the console.
 
-### `yarn test` or `npm run test`
+### `yarn test` or `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
+Launches the test runner in the interactive watch mode.
+
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build` or `npm run build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `build` folder.
+
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
+The build is minified and the filenames include the hashes.
+
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
