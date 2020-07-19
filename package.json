@@ -34,8 +34,5 @@
   "files": [
     "template",
     "template.json"
-  ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  ]
 }
