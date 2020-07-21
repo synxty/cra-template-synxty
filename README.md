@@ -51,7 +51,7 @@ Start by creating a repository for your app:
 
 Then run the following command:
 
-`npx create-react-app my-app --template @synxty/synxty`
+`npx create-react-app my-app --template @synxty/react-template`
 
 And that's it!
 
@@ -102,3 +102,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Notes
+
+- In your first commit, be sure that you are also committing the `.eslintrc.json`. Also, if you decide to make changes to this file commit those changes **before** you commit any changes to the src directory.
+
+- Changes to the default Airbnb code style to fit this template:
+  - import extensions were removed from ts and tsx files.
+  - tsx was added as a jsx-filename-extension.
+  - prop-types were disabled but feel free to enabled them by removing that option in the `.eslintrc.json` file.
