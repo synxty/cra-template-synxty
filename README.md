@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # Synxty CRA Template
 
-<img src=".github/assets/banner.png" />
+<img src="https://raw.githubusercontent.com/synxty/cra-template-synxty/master/.github/assets/banner.png" />
 
 <!-- omit in toc -->
 ## Featuring husky, commitlint, commitizen, lint-staged with Airbnb code style, styled-components and react-router-dom
