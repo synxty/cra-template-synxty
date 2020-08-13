@@ -1,10 +1,25 @@
+<!-- omit in toc -->
 # Synxty CRA Template
 
-Featuring husky, commitlint, commitizen, lint-staged with Airbnb code style, styled-components and react-router-dom.
+<img src=".github/assets/banner.png" />
 
-**Important Note:** In order for this template to work properly you should have a git repository already created. Otherwise the installation will get stuck trying to make the initial "CRA" commit which does not respect the conventional changelog. If you're reading this note too late, don't worry just cancel out of the installation and initialize a git repository with `git init` within your app folder.
+<!-- omit in toc -->
+## Featuring husky, commitlint, commitizen, lint-staged with Airbnb code style, styled-components and react-router-dom
 
-## Description
+**Important Note:** In order for this template to work properly with npm (npx) you must have a git repository already created. Otherwise the installation will get stuck trying to make the initial "create-react-app" commit which does not respect the conventional changelog. If you're reading this note too late, don't worry just cancel out of the installation and initialize a git repository with `git init` within your project folder.
+
+<!-- omit in toc -->
+### Table of Contents
+
+- [📃 Description](#-description)
+- [📁 File Structure](#-file-structure)
+- [⚙️ Installation](#️-installation)
+- [▶️ Available Scripts Within the Created Project](#️-available-scripts-within-the-created-project)
+- [🧠 Learn More](#-learn-more)
+- [⚠ Notes](#-notes)
+
+
+### 📃 Description
 
 This template is going to create a project bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and adds the following packages to the default typescript template:
 
@@ -17,7 +32,9 @@ This template is going to create a project bootstrapped with [Create React App](
 - [styled-components](https://styled-components.com/)
 - [react-router-dom](https://reactrouter.com/)
 
-It also offers an opinionated structure to get started with ease:
+It offers an opinionated structure to get started with ease. Tests are performed on every commit after the linting stage successfully finishes. Finally, your offered with a README template that makes it easy to document your project. Have fun!
+
+### 📁 File Structure
 
 ```.
 src
@@ -41,9 +58,7 @@ src
 
 ```
 
-Tests are preformed on every commit attempt.
-
-## Installation
+### ⚙️ Installation
 
 Start by creating a repository for your app:
 
@@ -51,15 +66,17 @@ Start by creating a repository for your app:
 
 Then run the following command:
 
+`yarn create react-app my-app --template @synxty/react-template`
+
+or, using npm:
+
 `npx create-react-app my-app --template @synxty/react-template`
 
 And that's it!
 
-## Available Scripts within the created project
+### ▶️ Available Scripts Within the Created Project
 
-In the project directory, you can run:
-
-### `yarn dev` or `npm run dev`
+`yarn start` or `npm start`
 
 Runs the app in the development mode.
 
@@ -69,13 +86,15 @@ The page will reload if you make edits.
 
 You will also see any lint errors in the console.
 
-### `yarn test` or `npm test`
+___
+`yarn test` or `npm test`
 
 Launches the test runner in the interactive watch mode.
 
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build` or `npm run build`
+___
+`yarn build` or `npm run build`
 
 Builds the app for production to the `build` folder.
 
@@ -87,7 +106,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject` or `npm run eject`
+___
+`yarn eject` or `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -97,13 +117,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### 🧠 Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Notes
+### ⚠ Notes
 
 - In your first commit, be sure that you are also committing the `.eslintrc.json`. Also, if you decide to make changes to this file commit those changes **before** you commit any changes to the src directory.
 

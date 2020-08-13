@@ -5,6 +5,7 @@
     "jest": true
   },
   "extends": [
+    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "airbnb"
   ],
