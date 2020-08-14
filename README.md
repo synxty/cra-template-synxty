@@ -12,14 +12,14 @@
 ### Table of Contents
 
 - [📃 Description](#-description)
+- [🎨 Creating a Project](#-creating-a-project)
 - [📁 File Structure](#-file-structure)
-- [⚙️ Installation](#️-installation)
 - [▶️ Available Scripts Within the Created Project](#️-available-scripts-within-the-created-project)
 - [🧠 Learn More](#-learn-more)
 - [⚠ Notes](#-notes)
+- [⚖️ License](#️-license)
 
-
-### 📃 Description
+## 📃 Description
 
 This template is going to create a project bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and adds the following packages to the default typescript template:
 
@@ -34,33 +34,9 @@ This template is going to create a project bootstrapped with [Create React App](
 
 It offers an opinionated structure to get started with ease. Tests are performed on every commit after the linting stage successfully finishes. Finally, your offered with a README template that makes it easy to document your project. Have fun!
 
-### 📁 File Structure
+## 🎨 Creating a Project
 
-```.
-src
-│   index.tsx
-│
-└───App
-│   │   App.tsx
-│   │
-│
-└───assets
-│
-└───components
-│
-└───pages
-│
-└───routes
-│
-└───services
-│
-└───styles
-
-```
-
-### ⚙️ Installation
-
-Start by creating a repository for your app:
+Start by creating a repository for your project:
 
 `git init my-app`
 
@@ -68,13 +44,47 @@ Then run the following command:
 
 `yarn create react-app my-app --template @synxty/react-template`
 
-or, using npm:
+or, using npx:
 
 `npx create-react-app my-app --template @synxty/react-template`
 
 And that's it!
 
-### ▶️ Available Scripts Within the Created Project
+## 📁 File Structure
+
+After one of the commands above finishes, a new directory is created with the name `my-app` in this case. And this is the structure that you get inside your project:
+
+```.
+my-app/
+├── README.md
+├── node_modules/
+├── package.json
+├── .gitignore
+├── .eslinttc.json
+├── tsconfig.json
+├── commitlint.config.js
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src/
+    ├── App/
+    |   |-- App.tsx
+    ├── assets/
+    ├── components/
+    ├── pages/
+    ├── routes/
+    ├── services/
+    ├── styles/
+    |   |-- index.js
+    └── index.tsx
+
+```
+
+## ▶️ Available Scripts Within the Created Project
 
 `yarn start` or `npm start`
 
@@ -117,13 +127,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### 🧠 Learn More
+## 🧠 Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### ⚠ Notes
+## ⚠ Notes
 
 - In your first commit, be sure that you are also committing the `.eslintrc.json`. Also, if you decide to make changes to this file commit those changes **before** you commit any changes to the src directory.
 
@@ -131,3 +141,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
   - import extensions were removed from ts and tsx files.
   - tsx was added as a jsx-filename-extension.
   - prop-types were disabled but feel free to enabled them by removing that option in the `.eslintrc.json` file.
+
+## ⚖️ License
+
+This template is open source software [licensed as MIT](LICENSE).
+
+___
+
+Thank you, made with 💗 by [Synxty](https://github.com/synxty).
